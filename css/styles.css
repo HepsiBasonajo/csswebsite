@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #5D8233;
+
+}
+
+h2 {
+font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  color: #5D8233;
+  font-weight: normal;
+  margin: 0;
+  padding:20px;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+    color: #D54C4C;
+}
+
+a {
+  color: #D54C4C;
+  margin: 0 20px 0 20px;
+  text-decoration: none;
+}
+a:hover
+{
+  color:#5D8233;
+}
+p {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 15px;
+  line-height:2;
+
+}
+
+.top-container {
+  background-color: #FF94CC;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 100px;
+}
+.skill-row
+{
+  width: 50%;
+margin: 50px auto 50px auto;
+text-align: left;
+
+}
+.skill1
+{
+  width: 35%;
+  float: left;
+  margin: 15px;
+}
+.skill2
+{
+  width: 35%;
+  float:right;
+    margin: 15px;
+}
+
+hr
+{
+  border-style:none;
+  border-top: dotted;
+  border-color:#5D8233;
+  border-width: 5px;
+  width:50px;
+margin: 75px auto;
+}
+.lastline
+{
+  color: white;
+}
+.bottom-container
+{
+  background-color: #FF94CC;
+  line-height: 4;
+
+}
+.profile
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.intro
+{
+width: 30%;
+margin: 25px auto 25px auto;
+padding-bottom: 30px;
+}
+.one
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.two
+{
+  padding-bottom: 30px;
+}
+.middle-container
+{
+  margin: 100px 0;
+}
+.BUTTON_GJG {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: 'Merriweather', serif;
+   width: 200px;
+   font-size: 27px;
+   font-weight: 100;
+   padding: 30px;
+   background-color: #3D94F6;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_GJG:hover {
+   background: #0A0D13;
+   border: solid #337FED 7px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
